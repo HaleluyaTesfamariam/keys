@@ -31,6 +31,36 @@
             height: auto;
             margin-top: 20px;
         }
+        .key-details {
+            margin-top: 20px;
+        }
+        .info-container .header {
+            font-weight: bold;
+            font-size: 16px; /* Increase font size for the header */
+            margin-bottom: 10px;
+        }
+        .info-container .extra-info img {
+            max-width: 100px; /* Set a max-width for the images */
+            height: auto;
+            margin-right: 10px;
+        }
+        .key-section {
+            text-align: center;
+            margin-top: 50px; /* Space from top content */
+        }
+        .key-section p {
+            font-weight: bold; /* Bold text */
+            font-size: 18px; /* Increase font size */
+            margin-bottom: 10px;
+        }
+        .key-section .key-images {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .key-section .key-images img {
+            max-width: 200px; /* Limit image size */
+        }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
@@ -53,6 +83,15 @@
     <select id="model-select" disabled>
         <option value="">Select Model</option>
     </select>
+
+    <div class="key-section">
+        <p>All Mercedes Keys 1997-2014 USE THIS: IYZ-3312, PN: 5WK47283, 20490562029999, 20490511049999</p>
+        <p>Aftermarket Emergency Key Included: EKB-MB-005 Test Key: ST-HU64 NEC / BGA</p>
+        <div class="key-images">
+            <img src="https://www.uhs-hardware.com/cdn/shop/products/RSK-MDS-3312_802b290b-361c-43cd-9870-6207c66c3607.jpg?v=1570461584" alt="Key Image 1">
+            <img src="https://www.uhs-hardware.com/cdn/shop/products/XHS-XNBZT1GL.png?v=1663942640" alt="Key Image 2">
+        </div>
+    </div>
 
     <div class="info-container" id="infoContainer">
         <h2>Key Details</h2>
@@ -154,3 +193,4 @@
     </script>
 </body>
 </html>
+
